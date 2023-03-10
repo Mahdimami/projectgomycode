@@ -1,0 +1,319 @@
+
+
+
+  main p {
+    background-color: #205b04;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  main {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 5px #888;
+  }
+
+  .frame {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888;
+    margin: 50px;
+  }
+  
+
+  h2 {
+    color: #137547;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+  }
+
+
+  footer {
+    background-color: #137547;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #white;
+    box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.75);
+    background-image: url("jungle.avif");
+    background-size: cover;
+    height: 100vh;
+    padding: 0 20px;
+  }
+  
+  header, nav, main, footer {
+    padding: 1rem;
+  }
+  
+  header {
+    color: black;
+    text-align: center;
+    box-shadow: 0px 0px 10px #888;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+  }
+  
+  header nav a:hover {
+    color: #006400;
+  }
+  
+  nav {
+    background-color: #006400;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    padding: 0.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #9fdf9f;
+  }
+  
+  main {
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px;
+  }
+  
+  .white-frame {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  
+  main h2 {
+    color: #006400;
+  }
+  
+  
+  footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -5px 10px #888;
+    background-color: darkgreen;
+    border-radius: 10px; 
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-info p {
+    margin: 0 10px;
+  }
+  
+  .contact-info img {
+    height: 20px;
+    margin-right: 5px;
+  }
+  .logo img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .macaw-img {
+    width: 700px;
+    height: 500px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      font-size: 1.5rem;
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .title1 {
+    font-size: 2rem;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .title1 {
+      font-size: 1.5rem;
+    }
+  }
+
+    display: inline-block; /* set the display property to inline-block to enable positioning */
+
+
+
+
+    .signup a:hover {
+      text-decoration: underline;
+    }
+
+
+
+
+
+    /* Style the sign-up link */
+.signup-link {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+  background-color: darkgreen;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+/* Add margin to the right of the header */
+header {
+  margin-right: 20px;
+}
+
+/* Style the header with a background color */
+header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+nav {
+  background-color: #fff; /* set the background color of the navigation bar to white */
+  padding: 10px; /* add some padding to create space between the navigation bar and the frame */
+  border-bottom: 5px solid #006400; /* add a dark green border to the bottom of the navigation bar */
+}
+
+nav a {
+  color: #006400; /* set the color of the links to dark green */
+  padding: 10px; /* add some padding to create space between the links and the frame */
+  border: 2px solid #006400; /* add a dark green border around the links */
+  border-radius: 5px; /* round the corners of the border */
+  margin-right: 10px; /* add some space between the links */
+}
+nav a:last-child {
+  margin-right: 0; /* remove the margin-right property from the last link to prevent extra space */
+}
+
+
+/* Navigation links */
+nav a {
+  color: white; /* set the font color to white */
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid white; /* add a border with white color */
+  background-color: darkgreen; /* set the background color to dark green */
+}
+
+/* Space between navigation links */
+nav a:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* On hover, change background color and font color */
+nav a:hover {
+  background-color: white;
+  color: darkgreen;
+}
+ 
+
+.contact-info {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li img {
+  margin-left: 10px;
+  width: 20px;
+}
+#header-background{
+
+  background-image: url("bb.jpeg-large");
+  height: auto;
+  width: auto;
+  
+  }

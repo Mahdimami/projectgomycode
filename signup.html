@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+</head>
+<body>
+  <header id="header-background">
+        <div class="logo">
+            <img src="parrot-logo.png" alt="Parrot Logo">
+          </div>
+          <div class="header">
+            <h1 class="title1">Parrot Wizard</h1>
+          </div>
+    </header>
+    <main>
+        <div class="title-frame">
+            <h1>Sign Up</h1>
+          </div>
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9]+@[a-zA-Z]+[.][a-zA-Z]+">
+          <span id="email-error" class="error"></span>
+          <br>
+  
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required pattern="[a-zA-Z]+">
+          <span id="name-error" class="error"></span>
+          <br>
+  
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" required pattern="[a-zA-Z]+">
+          <span id="surname-error" class="error"></span>
+          <br>
+  
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required min="1" max="999">
+          <span id="age-error" class="error"></span>
+          <br>
+  
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-zA-Z]).{8,}">
+          <span id="password-error" class="error"></span>
+          <br>
+          <form onsubmit="return validateForm()" method="post">
+            
+          <input type="submit" value="Sign Up">
+        </form>
+        <p id="signup-message"></p>
+        <p id="success-message" style="display: none;">Registration successful!</p>
+      </main>
+      <footer>
+        <div class="container">
+        <p>&copy; 2023 Parrot World</p>
+      </div>
+        <p>&copy; 2023 Parrot Wizard</p>
+      <div class="contact-info">
+        <div class="contact-info">
+          <ul>
+            <li>My Facebook: Parrot Wizard <img src="Facebook.webp"></li>
+            <li>My Instagram: Parrot Wizard Insta <img src="instagram.png"></li>
+            <li>My Phone Number: +216 26367078 <img src="phone.webp"></li>
+          </ul>
+        </div>
+      </footer>
+      
+ 
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="signup.js"></script>     
+</body>
+</html>
